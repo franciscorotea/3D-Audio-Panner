@@ -16,9 +16,6 @@ pip install scipy
 pip install pillow
 pip install pyaudio
 ```
-If you are using the [Anaconda distribution](https://www.anaconda.com/), you should only need `pyAudio`, which can be installed in the current environment using the following command in the Anaconda prompt:
-
-`conda install pyaudio`
 
 ## Usage:
 
