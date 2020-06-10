@@ -645,7 +645,7 @@ class MainPage(tk.Frame):
 
         file.add_separator()
 
-        file.add_command(label='Exit', command=quit)
+        file.add_command(label='Exit', command=root.destroy)
 
         menu.add_cascade(label='File', menu=file)
 
