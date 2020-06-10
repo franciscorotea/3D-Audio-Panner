@@ -25,7 +25,7 @@ pip install pyaudio
 
       ***Note:** Due to storage limitations, the repository has only 4 subjects of the database to choose from. The full database is ~170MB and has 45 subjects. It can be [downloaded for free](https://www.ece.ucdavis.edu/cipic/spatial-sound/hrtf-data/) at the CIPIC webpage. Make sure to download the MATLAB version of the database. In order to make it work, you should simply replace the folder `CIPIC_hrtf_database` with the one you downloaded.*
 
-![alt text](https://i.imgur.com/wgbHujh.png)
+   ![alt text](https://i.imgur.com/wgbHujh.png)
 
 3. Press `Play` to start playing the default sound file. Make sure to be using headphones as your audio output. Move the Azimuth and        Elevation sliders to position the sound in the 3D space. You can load your own audio file in File/Load audio file. Also, there are      other sound samples in the folder resources/sound.
    
@@ -34,7 +34,7 @@ pip install pyaudio
    You can save the file at the specified pair of Azimuth/Elevation in `File/Save audio file`.
    Lastly, you can choose to use a crossover in order not to spatialize low frequencies, since low frequencies are non-directional in      nature. Go to `Settings/Change cutoff frequency` to set the desired frequency. By default, crossover is set at 200 Hz.
 
-![alt text](https://i.imgur.com/xmcz00n.png)
+   ![alt text](https://i.imgur.com/xmcz00n.png)
 
 ## Implementation details
 
