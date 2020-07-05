@@ -465,7 +465,7 @@ class StartPage(tk.Frame):
         else:
             units = ' Kg'
 
-        for i, param in enumerate(['age', 'sex','WeightKilograms']):
+        for i, param in enumerate(['age', 'sex', 'WeightKilograms']):
             if param == 'WeightKilograms':
                 label = tk.Label(master=self.labelframes[0],
                                  text=anthro_data[param][idx] + units)
