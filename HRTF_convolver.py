@@ -37,8 +37,6 @@ Author:         Francisco Rotea
                 (Buenos Aires, Argentina)
 Repository:     https://github.com/franciscorotea
 Email:          francisco.rotea@gmail.com
-Version:        0.1
-Last Revised:   Thursday, June 04, 2020
 
 """
 
