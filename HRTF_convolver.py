@@ -635,31 +635,25 @@ class MainPage(tk.Frame):
         menu = tk.Menu(root)
 
         file = tk.Menu(menu, tearoff=0)
-
         file.add_command(label='Load audio file',
                          command=self.load_audio_dialog)
         file.add_command(label='Save audio file',
                          command=self.save_audio_dialog)
-
         file.add_separator()
-
         file.add_command(label='Exit', command=root.destroy)
 
         menu.add_cascade(label='File', menu=file)
 
         settings = tk.Menu(menu, tearoff=0)
-
         settings.add_command(label='Change cutoff frequency',
                              command=self.change_cutoff_freq)
         settings.add_command(label='Change subject',
                              command=lambda: self.controller.show_frame('Start'
-                                                                        'Page')
-                            )
+                                                                        'Page'))
 
         menu.add_cascade(label='Settings', menu=settings)
 
         help_ = tk.Menu(menu, tearoff = 0)
-
         help_.add_command(label='About', command=self.about)
 
         menu.add_cascade(label='Help', menu=help_)
