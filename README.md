@@ -27,7 +27,7 @@ pip install pyaudio
 
    ![alt text](https://i.imgur.com/wgbHujh.png)
 
-3. Press `Play` to start playing the default sound file. Make sure to be using headphones as your audio output. Move the Azimuth and        Elevation sliders to position the sound in the 3D space. You can load your own audio file in File/Load audio file. Also, there are      other sound samples in the folder resources/sound.
+3. Press `Play` to start playing the default sound file. Make sure to be using headphones as your audio output. Move the Azimuth and        Elevation sliders to position the sound in the 3D space. You can load your own audio file in File/Load audio file. Also, there are      other sound samples in the folder resources/sounds.
    
    **IMPORTANT: For now, the only working format is a mono WAV file at 44100 Hz sample rate and 16 bit depth.**
    
